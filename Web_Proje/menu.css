@@ -430,3 +430,41 @@ z-index: 5;
     background: transparent;
     color: azure;
 }
+
+.Giriş {
+    text-align: center;
+    padding: 50px 0;
+}
+.resume2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume2 label {
+    margin-bottom: 10px;
+}
+
+.resume2 input[type="text"],
+.resume2 input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.resume2 input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.resume2 input[type="submit"]:hover {
+    background-color: #0056b3;
+}
