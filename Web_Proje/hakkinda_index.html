@@ -7,7 +7,7 @@
     <title>Yol Haritam</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="/Web_Proje/menu.css" rel="stylesheet" type="text/css">
+    <link href="menu.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -54,7 +54,7 @@
                 <button class="btn" onclick="window.location.href='#Ayrıntılar'">Haydi İnceleyelim</button>
             </div>
             <div class="child_anasayfa">
-                <img src="/Web_Proje/image/ben.jpg" alt="">
+                <img src="image/ben.jpg" alt="">
             </div>
         </div>
     </section>
@@ -72,7 +72,7 @@
                 <h3> Favori Kitap</h3>
                 <P>Karamazov Kardeşler</P>
                 <div class="fotolar">
-                    <img src="/Web_Proje/image/karamazovKardeşler.jpg" alt="">
+                    <img src="image/karamazovKardeşler.jpg" alt="">
 
                 </div>
             </div>
@@ -82,7 +82,7 @@
                 <h3> Favori Aktör</h3>
                 <P>Al Pacino</P>
                 <div class="fotolar">
-                    <img src="/Web_Proje/image/alPacino.jpg" alt="">
+                    <img src="image/alPacino.jpg" alt="">
                 </div>
 
 
@@ -93,7 +93,7 @@
                 <h3> Favori Film</h3>
                 <P>Matrix Serisi</P>
                 <div class="fotolar">
-                    <img src="/Web_Proje/image/matrix.jpg" alt="">
+                    <img src="image/matrix.jpg" alt="">
                 </div>
 
 
@@ -104,7 +104,7 @@
                 <h3> Takımım</h3>
                 <P>Beşiktaş JK</P>
                 <div class="fotolar">
-                    <img src="/Web_Proje/image/beşiktaş.jpg" alt="">
+                    <img src="image/beşiktaş.jpg" alt="">
                 </div>
 
             </div>
@@ -145,7 +145,7 @@
         </section>
 
         <!-- Şehrim -->
-        <section class="Şehrim" id="Şehrim">
+        <article class="Şehrim" id="Şehrim">
 
             <div class="resume2">
                 <h1>Şehrim</h1>
@@ -206,7 +206,7 @@
 
                     <h3>Harita </h3>
                     <br>
-                    <li><img src="/Web_Proje/image/harita.png" alt="">
+                    <li><img src="image/harita.png" alt="">
                     </li>
                     <br>
                 </ul>
@@ -224,9 +224,10 @@
                         aria-label="Slide 4"></button>
                 </div>
                 <div class="carousel-inner">
+
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <a href="#hereke-kalesi"></a>
-                        <img src="/Web_Proje/image/eskihisarKalesi.jpg" class="d-block w-100" alt="...">
+                        <a href="#abc"><img src="image/eskihisarKalesi.jpg" class="d-block w-100" alt="..."></a>
+
 
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Hereke Kalesi</h5>
@@ -234,8 +235,8 @@
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
-                        <a href="#ballıkayalar"></a>
-                        <img src="/Web_Proje/image/ballıkayalar.jpg" class="d-block w-100" alt="...">
+                        <a href="#hereke-kalesi"> <img src="image/ballıkayalar.jpg" class="d-block w-100" alt="..."></a>
+
 
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Ballıkayalar Tabiat Parkı</h5>
@@ -243,8 +244,8 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <a href="#mustafapaşa"></a>
-                        <img src="/Web_Proje/image/mustafapaşa.jpg" class="d-block w-100" alt="...">
+                        <a href="#ballıkayalar"><img src="image/mustafapaşa.jpg" class="d-block w-100" alt="..."></a>
+
 
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Çoban Mustafapaşa Camii</h5>
@@ -253,8 +254,8 @@
                     </div>
 
                     <div class="carousel-item" data-bs-interval="2000">
-                        <a href="#yuvacık-barajı"></a>
-                        <img src="/Web_Proje/image/yuvacık.jpg" class="d-block w-100" alt="...">
+                        <a href="#mustafapaşa"> <img src="image/yuvacık.jpg" class="d-block w-100" alt="..."></a>
+
 
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Yuvacık Barajı</h5>
@@ -272,9 +273,9 @@
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
-        </section>
-
-        <section id="hereke-kalesi" class="kısaAçıklama">
+        </article>
+        <div class="w-100" id="abc"></div>
+        <section id="hereke-kalesi" class="kısaAçıklama herke">
             <h2>Hereke Kalesi</h2>
             <p>İzmit'in fethi sırasında İzmit'ten kaçanlar Hereke Kalesi'ne sığınır ve durumu öğrenen Orhan Gazi, Ali
                 Bey'i başbuğ olarak görevlendirir ve Ali Bey kaleyi alır. 1326 yılında Hereke Kalesi Osmanlı Beyliğine
@@ -454,12 +455,33 @@
                 </ul>
         </section>
 
- <!-- İlgi Alanlarım -->
- <section id="İlgi Alanlarım" class="İlgi Alanlarım">
-    <div class="resume2">
-        <h1>İlgi Alanlarım</h1>
-    </div>
- </section>
+        <!-- İlgi Alanlarım -->
+        <section id="İlgi Alanlarım" class="İlgiAlanlarım">
+            <div class="resume2">
+                <h1>İlgi Alanlarım</h1>
+            </div>
+            <div class="app">
+
+
+                <div class="baslık">
+                    <h1>Hava Durumu</h1>
+                    <input type="text" id="searchBar" placeholder="Şehir Giriniz">
+                </div>
+                <div class="content">
+                    <div class="city">Kocaeli, TR</div>
+                    <div class="temp">15°C</div>
+                    <div class="desc">Güneşli</div>
+                    <div class="minmax">14°C / 19°C</div>
+                </div>
+            </div>
+
+
+                        
+            
+
+
+
+        </section>
 
         <!-- İletişim -->
         <section id="İletişim">
@@ -468,10 +490,10 @@
             </div>
             <div class="inner_contact">
                 <div class="child_contact">
-                    <img src="/Web_Proje/image/iletişim.jpg" alt="">
+                    <img src="image/iletişim.jpg" alt="">
                 </div>
                 <div class="child_contact">
-                    <form action="gonderilen-sayfa.html"onsubmit="return validateForm()"  method="post">
+                    <form action="form.php" onsubmit="return validateForm()" method="post">
                         <input placeholder="İsim" type="text" name="name" id="name">
                         <input placeholder="E-Mail" type="text" name="mail" id="mail">
                         <input placeholder="Tel" type="text" name="tel" id="tel">
@@ -485,20 +507,20 @@
 
         </section>
 
- <!-- Giriş -->
+        <!-- Giriş -->
 
- <section id="Giriş" class="Giriş">
-    <div class="resume2">
-        <h1>Giriş</h1>
-        <form action="login_process.php" method="post">
-            <label for="username">Kullanıcı Adı:</label>
-            <input type="text" id="username" name="username" required><br><br>
-            <label for="password">Şifre:</label>
-            <input type="password" id="password" name="password" required><br><br>
-            <input type="submit" value="Giriş">
-        </form>
-    </div>
-</section>
+        <section id="Giriş" class="Giriş">
+            <div class="resume2">
+                <h1>Giriş</h1>
+                <form action="login_process.php" method="post">
+                    <label for="username">Kullanıcı Adı:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Şifre:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="submit" value="Giriş">
+                </form>
+            </div>
+        </section>
 
 
         <script src="/Web_Proje/javascript.js"></script>
