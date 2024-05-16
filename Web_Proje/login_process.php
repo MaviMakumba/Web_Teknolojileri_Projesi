@@ -1,5 +1,6 @@
 <?php
-// login_process.php
+ob_start();
+header("Content-Type: text/html; charset=UTF-8");
 
 // Formdan gelen kullanıcı adı ve şifreyi alın
 $username = $_POST['username'];

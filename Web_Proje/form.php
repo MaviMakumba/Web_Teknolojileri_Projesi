@@ -1,6 +1,6 @@
 <?php
-// contact_process.php
-
+ob_start();
+header("Content-Type: text/html; charset=UTF-8");
 // Formdan gelen verileri alın
 $name = $_POST['name'];
 $mail = $_POST['mail'];
